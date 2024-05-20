@@ -1,20 +1,20 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "2.0.5",
-    "description": "Launcher Mincraft pour le serveur Selvania",
+    "name": "RadiumPro-launcher",
+    "preductname": "RadiumPro Launcher",
+    "version": "1.0.1",
+    "description": "[BETA] Launcheur pour RadiumPro",
     "main": "src/app.js",
     "author": {
-        "name": "luuxis, Inc.",
+        "name": "luuxis, luuxis-RadiumPro, Inc.",
         "email": "contact@luuxis.fr",
-        "url": "https://github.com/luuxis"
+        "url": "https://radiumpro.fr"
     },
-    "url": "http://launcher.luuxis.fr",
+    "url": "https://launcher.radiumpro.fr",
     "scripts": {
         "start": "cross-env-shell NODE_ENV=dev electron .",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --exec npm start",
         "build": "node build.js --obf=true --build=platform",
-        "icon": "node build.js --icon=https://raw.githubusercontent.com/luuxis/Selvania-Launcher/master/src/assets/images/icon.png"
+        "icon": "node build.js --icon=https://media.forgecdn.net/avatars/959/182/638454071049237650.png"
     },
     "license": "CCANC",
     "nodemonConfig": {
@@ -39,6 +39,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/GzaGzou/RadiumPro-Launcher.git"
     }
 }
